@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar - Product Landing Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body style="background-color: rgb(250, 241, 227)">
+    <header id="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: rgb(129, 95, 45)"
+        id="nav-bar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://i.ibb.co/mv7TpVN/Pngtree-cartoon-guitar-4281572-removebg-preview.png"
+              id="header-img"
+              width="120"
+              height="120"
+            />
+            Masimo Guitar
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#product-carousel">Product Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter-form">Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product-media">Product Review</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="call-to-action" class="container text-center">
+        <div id="brand">
+          <h1 class="brand-name mb-3" id="brand-name">Masimo Guitar</h1>
+          <h2 class="tagline mb-3" id="tagline">
+            <em>Well made, Handcrafted, Best sounds.</em>
+          </h2>
+        </div>
+        <div
+          id="product-carousel"
+          class="carousel slide mb-3"
+          data-bs-ride="carousel"
+        >
+          <h1 class="section-title mb-3">Product Gallery</h1>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1528553744039-c1dcef33574f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=744&q=80"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1536047852989-10896cf70749?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div id="newsletter-form" class="mb-3">
+          <h1 class="section-title mb-3">Offers</h1>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="mb-3 row g-3 align-items-center">
+              <div class="col-4 mx-auto text-center">
+                <label for="email" class="form-label"
+                  >Sign Up For Our Newsletter To Get Special Offers</label
+                >
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control mb-3"
+                  id="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <input
+                id="submit"
+                type="submit"
+                class="btn btn-primary"
+                style="background-color: rgb(129, 95, 45)"
+                value="Subscribe"
+              />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="product-media">
+          <div id="product-review">
+            <h1 class="section-title mb-3">Product Review</h1>
+          </div>
+          <div id="product-video">
+            <iframe
+              id="video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TsI0yLz6oAE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section>
+        <div
+          class="footer mx-auto"
+          style="background-color: rgb(129, 95, 45); color: white"
+        >
+          <div class="text-center py-2">
+            <p>Develop with 💙 by Hanif Al Fathoni · For Masimo Guitar</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
